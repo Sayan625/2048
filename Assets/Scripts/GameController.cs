@@ -100,7 +100,8 @@ public class GameController : MonoBehaviour
     }
 
     public void Exit(){
-        Application.Quit();
+                SceneManager.LoadScene(0);
+
     }
 
     void initiate(string level){
